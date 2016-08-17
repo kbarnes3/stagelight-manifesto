@@ -17,3 +17,5 @@ create ambient lighting in a repeatable way. Features of Stagelight Manifesto ar
 An infinite number of tweaks and variations on this ambient lighting setup are possible.
 Wherever reasonable, Stagelight Manifesto docs will NOT go into these variations in order to provide a focused and easy
 to follow guide. Before beginning to follow these docs, please make sure you understand what Stagelight Manifesto does and does not do. You should feel free to diverge from these docs wherever you want to make your setup your own, but know that you may be on your own if problems arise.
+
+To get started, read [Getting Started](1_Getting_Started.md).
