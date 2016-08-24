@@ -1,0 +1,12 @@
+# Setup
+name:         Stagelight Manifesto
+tagline:      An end-to-end ambient lighting system for your TV
+baseurl:      ""
+repository:   "kbarnes3/stagelight-manifesto"
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
