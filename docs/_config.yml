@@ -1,7 +1,7 @@
 # Setup
 name:         Stagelight Manifesto
 tagline:      An end-to-end ambient lighting system for your TV
-baseurl:      ""
+baseurl:      "/stagelight-manifesto"
 repository:   "kbarnes3/stagelight-manifesto"
 
 # Gems
