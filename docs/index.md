@@ -1,6 +1,6 @@
 ---
 layout: default
-title: {{ site.name }}
+title: Stagelight Manifesto
 ---
 
 **{{ site.name }} is not complete yet. Please check back later!**
