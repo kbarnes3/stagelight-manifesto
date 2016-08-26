@@ -7,7 +7,7 @@ Stagelight Manifesto is an ambient lighting system for TVs or other screens with
 While many similar implementations exist, Stagelight Manifesto aims to provide end-to-end directions for creating
 an ambient lighting setup.
 
-Specifically, 'Stagelight Manifesto' is a set of documentation and scripts focusing on allowing more people to
+Specifically, this project is a set of documentation and scripts focusing on allowing more people to
 create ambient lighting in a repeatable way. Features of Stagelight Manifesto are:
 
 1. A list of all components, with links to specific components and what to look for if you want to make a substitution.
@@ -16,6 +16,7 @@ create ambient lighting in a repeatable way. Features of Stagelight Manifesto ar
 
 An infinite number of tweaks and variations on this ambient lighting setup are possible.
 Wherever reasonable, Stagelight Manifesto docs will NOT go into these variations in order to provide a focused and easy
-to follow guide. Before beginning to follow these docs, please make sure you understand what Stagelight Manifesto does and does not do. You should feel free to diverge from these docs wherever you want to make your setup your own, but know that you may be on your own if problems arise.
+to follow guide. Before beginning to follow these docs, please make sure you understand what Stagelight Manifesto does and does not do.
+You should feel free to diverge from these docs wherever you want to make your setup your own, but know that you may be on your own if problems arise.
 
-To get started, read [Getting Started](1_Getting_Started.md).
+To get started, read [our GitHub pages](https://kbarnes3.github.io/stagelight-manifesto/).
