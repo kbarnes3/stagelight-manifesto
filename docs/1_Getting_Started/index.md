@@ -26,3 +26,12 @@ Some of these bundles might be cost effective for you.
 {{ stie.name }} doesn't have very demanding requirements for its SD card, beyond the 
 [requirements for a Raspberry Pi](https://www.raspberrypi.org/documentation/installation/sd-cards.md).
 Any card with that meets these requirements and is at least 4 GB in capacity will be fine.
+
+1. LED Lights -
+These are the most expensive single component in {{ site.name }}, but fortunately you have a lot of options here. I bought
+4 meters of [this](https://www.adafruit.com/products/2240). The important thing is to buy lights with an APA102C controller.
+Many cheaper LED light strips have other controllers with more demanding timing requirements that can
+be difficult for a Raspberry Pi to consistently meet.
+Adafruit sells the same type of lights in 30 LED/m and 144 LED/m variants and you can get equivalent lights from a variety
+of other sources. Make sure you get long enough strips of lights to go around the edge of your TV. Adafruit sells
+these lights in one meter lengths, so my 52" TV required purchasing 4 meters of lights to cover.
