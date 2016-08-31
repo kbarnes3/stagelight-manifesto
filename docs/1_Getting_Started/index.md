@@ -29,9 +29,26 @@ Any card with that meets these requirements and is at least 4 GB in capacity wil
 
 1. LED Lights -
 These are the most expensive single component in {{ site.name }}, but fortunately you have a lot of options here. I bought
-4 meters of [this](https://www.adafruit.com/products/2240). The important thing is to buy lights with an APA102C controller.
+ [this](https://www.adafruit.com/products/2240). The important thing is to buy lights with an APA102C controller.
 Many cheaper LED light strips have other controllers with more demanding timing requirements that can
 be difficult for a Raspberry Pi to consistently meet.
 Adafruit sells the same type of lights in 30 LED/m and 144 LED/m variants and you can get equivalent lights from a variety
 of other sources. Make sure you get long enough strips of lights to go around the edge of your TV. Adafruit sells
 these lights in one meter lengths, so my 52" TV required purchasing 4 meters of lights to cover.
+
+1. JST Connectors
+JST connectors are used to connect the lights to the Raspberry Pi for data and power. They are also used to join the light
+strips on different sides of the TV in later steps. APA102C lights have 4 pins (2 data, 2 power) to connect, so 4 pin JST
+connectors like [these](https://www.adafruit.com/products/578) are ideal. Depending on how many lights you have, it's useful
+to be able to inject power at the end of the strip or possibly in the middle. 2 pin connectors like [these](https://www.adafruit.com/products/2880)
+work well for that. For phase 1, you only need one 4 pin connector and one 2 pin connect, but you can save time by buying more now.
+The recommended light strip placement calls for:
+    1. Data + power (4 pins) at the start of the strip
+    1. 4 joints (2 + 2 pins) between light strips (one in each corner). These joints use two separate connectors to allow
+    for the possibility of splicing in power mid-strip if needed for even lighting.
+    1. Power (2 pins) at the end of the strip
+
+In total, this is 1 4 pin connector set and 9 2 pin connectors.
+There's also no harm in using connectors for more wires than you need or replacing 4 pin connectors with smaller ones if that's more convenient.
+
+1. A hat
